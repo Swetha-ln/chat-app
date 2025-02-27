@@ -1,0 +1,19 @@
+Segment Documentation
+
+1. Setting Up a Source:
+   - Go to the Sources page in the Segment dashboard.
+   - Click "Add Source" and select the type of source you want to connect.
+   - Follow the instructions to configure the source.
+
+2. Creating a Destination:
+   - Navigate to the Destinations page.
+   - Click "Add Destination" and choose the platform you want to send data to.
+   - Configure the destination settings as required.
+
+3. Tracking Events:
+   - Use the Segment SDK to track events in your application.
+   - Example: `analytics.track('Order Completed', { orderId: '123' });`
+
+4. Managing Users:
+   - Use the `identify` method to create or update user profiles.
+   - Example: `analytics.identify('user123', { name: 'John Doe', email: 'john@example.com' });`

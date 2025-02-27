@@ -1,0 +1,18 @@
+Lytics Documentation
+
+1. Setting Up a Data Source:
+   - Go to the "Data Sources" section in the Lytics dashboard.
+   - Click "Add Data Source" and select the type of source you want to connect.
+   - Follow the instructions to configure the source.
+
+2. Creating User Profiles:
+   - Use the Lytics API to create or update user profiles.
+   - Example: `lytics.identify('user123', { name: 'Jane Doe', email: 'jane@example.com' });`
+
+3. Building Audience Segments:
+   - Navigate to the "Audiences" tab.
+   - Click "Create Segment" and define the rules for your audience.
+
+4. Tracking Events:
+   - Use the `track` method to log user events.
+   - Example: `lytics.track('Signup', { plan: 'Premium' });`
