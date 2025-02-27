@@ -1,0 +1,18 @@
+Zeotap Documentation
+
+1. Setting Up a Data Source:
+   - Log in to your Zeotap account.
+   - Go to the "Data Sources" section and click "Add Source."
+   - Select the type of source you want to connect and follow the setup instructions.
+
+2. Creating User Profiles:
+   - Use the Zeotap API to create or update user profiles.
+   - Example: `zeotap.identify('user123', { name: 'Alice', email: 'alice@example.com' });`
+
+3. Building Audiences:
+   - Navigate to the "Audiences" section.
+   - Click "Create Audience" and define the criteria for your audience.
+
+4. Tracking Events:
+   - Use the `track` method to log user events.
+   - Example: `zeotap.track('Page View', { page: 'Home' });`
